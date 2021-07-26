@@ -1,0 +1,44 @@
+body{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(Images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+
+}
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(44, 4, 4);
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: blue;
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: rgb(231, 68, 18);
+    bottom: 0px;
+}
